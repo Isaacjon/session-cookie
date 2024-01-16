@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="first">
+      <div class="login-box session-box">
+        <h2>Add Session Data</h2>
+        <form id="sessionForm" action="#">
+          <div class="user-box">
+            <input type="text" name="username" required />
+            <label>Username</label>
+          </div>
+          <div class="user-box">
+            <input type="password" name="password" required />
+            <label>Password</label>
+          </div>
+          <button type="submit" id="firstbtn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Submit
+          </button>
+        </form>
+      </div>
+
+      <div class="data">
+        <div class="session">
+          <h2>Session Data</h2>
+          <div id="session"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="second">
+      <div class="login-box cookie-box">
+        <h2>Add Cookie Data</h2>
+        <form id="cookieForm" action="#">
+          <div class="user-box">
+            <input type="text" name="username" required />
+            <label>Username</label>
+          </div>
+          <div class="user-box">
+            <input type="password" name="password" required />
+            <label>Password</label>
+          </div>
+          <button type="submit" id="secondbtn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Submit
+          </button>
+        </form>
+      </div>
+
+      <div class="data">
+        <div class="cookie">
+          <h2>Cookie Data</h2>
+          <div id="cookie"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
